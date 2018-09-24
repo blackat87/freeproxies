@@ -3,6 +3,7 @@ What's this lib?
 ================
 
 This lib provided rotate proxy ip from free proxy list (for this moment):
+
 * `free proxy list <https://free-proxy-list.net/>`_
 * `sslproxies list <https://www.sslproxies.org/>`_
 
@@ -14,7 +15,7 @@ To download the latest source code enter the following command:
 
 .. code-block:: bash
 
-    git clone 
+    git clone https://github.com/blackat87/freeproxies
 
 
 Usage
@@ -34,4 +35,5 @@ Usage
 Notes
 -----
 Inspired by this blog's article:
+
 * `How To Rotate Proxies and IP Addresses using Python 3 <https://www.scrapehero.com/how-to-rotate-proxies-and-ip-addresses-using-python-3/>`_
