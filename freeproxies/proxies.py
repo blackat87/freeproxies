@@ -84,3 +84,10 @@ class FreeProxies(object):
 
         except (KeyError, IndexError):
             raise
+
+    @property
+    def random_proxy(self):
+        data = self.random
+        protocol = 'https' if data[3] else 'http'
+        ip, port = data[0], data[1]
+        return "{}://{}:{}".format(protocol, ip, port)
