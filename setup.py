@@ -34,6 +34,6 @@ setup(name='freeproxies',
           'Programming Language :: Python :: 3'
       ],
       keywords=['free proxy'],
-      install_requires=['fake_useragent',  'urllib3', 'beautifulsoup'],
+      install_requires=['fake_useragent',  'urllib3', 'beautifulsoup4'],
       packages=find_packages(exclude=["*.test", "*.test.*", "test.*", "test", "docs"]),
       )
